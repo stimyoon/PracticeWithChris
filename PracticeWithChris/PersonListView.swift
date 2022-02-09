@@ -12,8 +12,8 @@ struct PersonCellView : View {
     
     var body: some View {
         HStack{
+            Text("\(person.lastName), ")
             Text("\(person.firstName)")
-            Text("\(person.lastName)")
         }
     }
 }
@@ -28,7 +28,7 @@ struct PersonListView: View {
                 Section(header: Text("people")){
                     ForEach(vm.persons) { person in
                         NavigationLink {
-                            AddEditPersonView(vm: vm, edit: person)
+                            PersonView(person: person, completion: vm.update)
                         } label: {
                             PersonCellView(person: person)
                         }
@@ -50,7 +50,7 @@ struct PersonListView: View {
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     NavigationLink {
-                        AddEditPersonView(vm: vm)
+                        PersonView(person: Person(), completion: vm.create)
                     } label: {
                         Label("Add", systemImage: "plus")
                     }

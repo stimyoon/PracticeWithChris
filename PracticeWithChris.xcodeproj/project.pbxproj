@@ -13,7 +13,7 @@
 		91E5228627B35E8D0076FC6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E5228527B35E8D0076FC6F /* Preview Assets.xcassets */; };
 		91E5228D27B35F1A0076FC6F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E5228C27B35F1A0076FC6F /* Persistence.swift */; };
 		91E5228F27B35F8D0076FC6F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E5228E27B35F8D0076FC6F /* DataService.swift */; };
-		91E5229127B363BB0076FC6F /* AddEditPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E5229027B363BB0076FC6F /* AddEditPersonView.swift */; };
+		91E5229127B363BB0076FC6F /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E5229027B363BB0076FC6F /* PersonView.swift */; };
 		91E5229427B36FB50076FC6F /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91E5229227B36FB50076FC6F /* CoreDataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +25,7 @@
 		91E5228527B35E8D0076FC6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		91E5228C27B35F1A0076FC6F /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		91E5228E27B35F8D0076FC6F /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
-		91E5229027B363BB0076FC6F /* AddEditPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditPersonView.swift; sourceTree = "<group>"; };
+		91E5229027B363BB0076FC6F /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
 		91E5229327B36FB50076FC6F /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +61,7 @@
 			children = (
 				91E5227E27B35E8C0076FC6F /* PracticeWithChrisApp.swift */,
 				91E5228E27B35F8D0076FC6F /* DataService.swift */,
-				91E5229027B363BB0076FC6F /* AddEditPersonView.swift */,
+				91E5229027B363BB0076FC6F /* PersonView.swift */,
 				91E5228027B35E8C0076FC6F /* PersonListView.swift */,
 				91E5229227B36FB50076FC6F /* CoreDataModel.xcdatamodeld */,
 				91E5228C27B35F1A0076FC6F /* Persistence.swift */,
@@ -152,7 +152,7 @@
 				91E5228D27B35F1A0076FC6F /* Persistence.swift in Sources */,
 				91E5228127B35E8C0076FC6F /* PersonListView.swift in Sources */,
 				91E5229427B36FB50076FC6F /* CoreDataModel.xcdatamodeld in Sources */,
-				91E5229127B363BB0076FC6F /* AddEditPersonView.swift in Sources */,
+				91E5229127B363BB0076FC6F /* PersonView.swift in Sources */,
 				91E5227F27B35E8C0076FC6F /* PracticeWithChrisApp.swift in Sources */,
 				91E5228F27B35F8D0076FC6F /* DataService.swift in Sources */,
 			);
